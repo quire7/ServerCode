@@ -1,0 +1,173 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameServer.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "科技有限公司"
+            VALUE "CompanyName", "科技有限公司"
+            VALUE "FileDescription", "掼蛋游戏服务器组件"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "GuanDanSQServer.dll"
+            VALUE "LegalCopyright", "科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "GuanDanSQServer.dll"
+            VALUE "ProductName", "掼蛋游戏服务器组件"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CUSTOM_RULE DIALOGEX 0, 0, 349, 229
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    EDITTEXT        IDC_TIME_START_GAME,75,28,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_PAY_TRIBUTE,75,47,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_RETURN_TRIBUTE,75,66,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_HEAD_OUT_CARD,75,85,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_OUT_CARD,75,104,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TIME_TRUSTEE,75,123,43,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "开始时间：",IDC_STATIC,31,30,41,8
+    LTEXT           "（默认 5 秒，有效范围 2 - 30 秒）",IDC_STATIC,130,31,133,8
+    GROUPBOX        "时间控制",IDC_STATIC,9,12,322,143
+    GROUPBOX        "游戏控制",IDC_STATIC,9,168,323,52
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,18,194,306,1
+    LTEXT           "首出时间：",IDC_STATIC,31,87,41,8
+    LTEXT           "出牌时间：",IDC_STATIC,31,106,41,8
+    LTEXT           "（默认 20 秒，有效范围 5 - 60 秒）",IDC_STATIC,130,88,137,8
+    LTEXT           "（默认 15 秒，有效范围 5 - 60 秒）",IDC_STATIC,130,107,137,8
+    LTEXT           "进贡时间：",IDC_STATIC,31,49,41,8
+    LTEXT           "（默认 10 秒，有效范围 5 - 60 秒）",IDC_STATIC,130,50,137,8
+    LTEXT           "托管时间：",IDC_STATIC,31,125,41,8
+    LTEXT           "（默认 1 秒，有效范围 1 - 20 秒）",IDC_STATIC,130,126,133,8
+    LTEXT           "回贡时间：",IDC_STATIC,31,68,41,8
+    LTEXT           "（默认 15 秒，有效范围 5 - 60 秒）",IDC_STATIC,130,69,137,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CUSTOM_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameServer.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

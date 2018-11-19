@@ -1,0 +1,16 @@
+USE QPPlatformDB
+GO
+
+-- 签到配置
+TRUNCATE TABLE GameTypeItem
+GO
+
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (1, 0, 500, '我的比赛', 0)
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (2, 0, 100, '推荐游戏', 0)
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (3, 0, 101, '牌类游戏', 0)
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (4, 0, 102, '麻将游戏', 0)
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (5, 0, 103, '财富游戏', 0)
+INSERT INTO [dbo].[GameTypeItem] ([TypeID], [JoinID], [SortID], [TypeName], [Nullity]) VALUES (6, 0, 104, '休闲游戏', 0)
+
+
+GO
